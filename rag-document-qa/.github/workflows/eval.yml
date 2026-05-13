@@ -1,0 +1,61 @@
+name: RAG Evaluation CI
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  evaluate:
+    name: Run RAG Evaluation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('rag-document-qa/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        working-directory: rag-document-qa
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create .env file
+        working-directory: rag-document-qa
+        run: |
+          cp .env.example .env
+          # Override with CI-specific values (secrets injected from GitHub)
+          echo "GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}" >> .env
+          echo "USE_OLLAMA=false" >> .env
+          echo "CHROMA_PERSIST_DIR=./chroma_db" >> .env
+          echo "FAITHFULNESS_THRESHOLD=0.7" >> .env
+
+      - name: Run evaluation
+        working-directory: rag-document-qa
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          PYTHONPATH: .
+        run: |
+          python eval/evaluate.py --collection test --max-questions 10
+
+      - name: Upload evaluation results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: rag-document-qa/eval/
+          retention-days: 30

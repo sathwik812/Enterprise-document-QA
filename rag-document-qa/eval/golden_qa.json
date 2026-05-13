@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the maximum number of remote work days allowed per week under the current HR policy?",
+    "ground_truth": "Employees are permitted to work remotely up to 3 days per week, subject to manager approval and role suitability.",
+    "context": "Remote Work Policy (HR-POL-001): Full-time employees may work remotely up to three (3) days per calendar week. Remote work arrangements require written approval from the direct line manager and are subject to role suitability assessment by HR. Roles classified as 'on-site critical' are exempt from this policy."
+  },
+  {
+    "question": "How many days of annual leave are employees entitled to after completing 5 years of service?",
+    "ground_truth": "Employees with 5 or more years of service are entitled to 25 days of annual leave per year.",
+    "context": "Annual Leave Entitlement (HR-POL-002): Employees accrue annual leave based on length of service. 0–2 years: 20 days. 3–4 years: 22 days. 5–9 years: 25 days. 10+ years: 28 days. Leave entitlement is calculated on a pro-rata basis for part-time employees."
+  },
+  {
+    "question": "What is the SLA for resolving Priority 1 incidents according to the IT Service Management policy?",
+    "ground_truth": "Priority 1 incidents must be resolved within 4 hours of being raised.",
+    "context": "IT Service Management Policy (IT-POL-003): Incident priority levels and resolution SLAs are defined as follows. Priority 1 (Critical): Resolution within 4 hours. Priority 2 (High): Resolution within 8 business hours. Priority 3 (Medium): Resolution within 3 business days. Priority 4 (Low): Resolution within 5 business days."
+  },
+  {
+    "question": "What is the data retention period for customer financial records under the compliance policy?",
+    "ground_truth": "Customer financial records must be retained for a minimum of 7 years.",
+    "context": "Data Retention and Disposal Policy (COMP-POL-004): Financial records, including customer transaction data, invoices, and payment records, must be retained for a minimum period of seven (7) years in accordance with regulatory requirements. Records must be stored in an approved, access-controlled repository."
+  },
+  {
+    "question": "What approval is required before installing third-party software on company devices?",
+    "ground_truth": "Installation of third-party software requires approval from the IT Security team and the employee's line manager.",
+    "context": "Acceptable Use Policy (IT-POL-005): Employees must not install any third-party software on company-owned devices without prior written approval from the IT Security team and their direct line manager. Requests must be submitted via the IT Service Portal with a business justification. Unapproved software installations may result in disciplinary action."
+  },
+  {
+    "question": "What is the minimum password length required by the information security policy?",
+    "ground_truth": "Passwords must be at least 12 characters long.",
+    "context": "Information Security Policy (SEC-POL-006): All user account passwords must meet the following minimum requirements: Length: at least 12 characters. Complexity: must include uppercase letters, lowercase letters, numbers, and at least one special character. Expiry: passwords must be changed every 90 days. Reuse: the last 10 passwords may not be reused."
+  },
+  {
+    "question": "How long does an employee have to report a data breach after discovering it?",
+    "ground_truth": "Employees must report a suspected data breach within 1 hour of discovery.",
+    "context": "Data Breach Response Policy (SEC-POL-007): Any employee who suspects or discovers a data breach must report it to the Information Security team immediately and no later than one (1) hour after discovery. Reports must be submitted via the Security Incident Portal. Failure to report within the required timeframe may result in disciplinary action."
+  },
+  {
+    "question": "What is the maximum expense claim allowed for a single business meal without additional approval?",
+    "ground_truth": "Business meal expenses up to $75 per person can be claimed without additional approval.",
+    "context": "Travel and Expense Policy (FIN-POL-008): Employees may claim business meal expenses without additional management approval up to a limit of $75 per person per meal. Claims exceeding this threshold require approval from a department head. All meal claims must be accompanied by an itemised receipt and a list of attendees with their business relationship to the company."
+  },
+  {
+    "question": "What notice period is required for employees resigning from a senior management position?",
+    "ground_truth": "Senior management employees are required to give 3 months' notice upon resignation.",
+    "context": "Employment Terms Policy (HR-POL-009): Notice periods vary by employment grade. Individual contributors: 4 weeks. Team leads and managers: 8 weeks. Senior managers and directors: 3 months. C-suite executives: 6 months. Notice periods may be waived or reduced by mutual written agreement between the employee and the company."
+  },
+  {
+    "question": "What is the company's policy on using personal devices to access corporate email?",
+    "ground_truth": "Personal devices may be used to access corporate email only if enrolled in the Mobile Device Management (MDM) system.",
+    "context": "Mobile Device Policy (IT-POL-010): Employees wishing to access corporate email, calendar, or collaboration tools on personal devices must first enrol their device in the company's Mobile Device Management (MDM) system. Unenrolled personal devices must not be used to access corporate systems. The company reserves the right to remotely wipe corporate data from enrolled devices."
+  },
+  {
+    "question": "What is the uptime SLA guaranteed for the core ERP system?",
+    "ground_truth": "The core ERP system has a guaranteed uptime SLA of 99.5% measured monthly.",
+    "context": "IT Infrastructure SLA (IT-SLA-011): The following uptime SLAs apply to critical business systems. Core ERP System: 99.5% monthly uptime. Customer Portal: 99.9% monthly uptime. Internal Intranet: 99.0% monthly uptime. Scheduled maintenance windows are excluded from uptime calculations. SLA breaches trigger a credit mechanism as defined in the vendor contract."
+  },
+  {
+    "question": "How often must employees complete mandatory information security awareness training?",
+    "ground_truth": "Employees must complete information security awareness training annually.",
+    "context": "Security Training Policy (SEC-POL-012): All employees, contractors, and third-party users with access to company systems must complete the mandatory Information Security Awareness Training programme annually. New joiners must complete the training within their first 30 days of employment. Completion is tracked via the Learning Management System (LMS). Non-compliance may result in access suspension."
+  },
+  {
+    "question": "What is the process for requesting access to a restricted data classification?",
+    "ground_truth": "Access to restricted data requires a formal request approved by the data owner and the Information Security team.",
+    "context": "Data Classification and Access Policy (SEC-POL-013): Data is classified into four tiers: Public, Internal, Confidential, and Restricted. Access to Restricted data requires a formal Access Request Form submitted through the IT Service Portal, approved by the designated data owner and reviewed by the Information Security team. Access is granted on a least-privilege, need-to-know basis and reviewed quarterly."
+  },
+  {
+    "question": "What is the company's policy on accepting gifts from vendors or suppliers?",
+    "ground_truth": "Employees may accept gifts from vendors valued at no more than $50. Gifts exceeding this value must be declared and may be declined or donated.",
+    "context": "Anti-Bribery and Gifts Policy (COMP-POL-014): Employees must not solicit gifts, hospitality, or other benefits from vendors, suppliers, or clients. Unsolicited gifts with a value of $50 or less may be accepted. Gifts exceeding $50 in value must be declared to the Compliance team within 5 business days and may be required to be returned or donated to charity. Cash gifts of any amount are strictly prohibited."
+  },
+  {
+    "question": "What is the backup frequency for Tier 1 production databases?",
+    "ground_truth": "Tier 1 production databases are backed up every hour with full daily backups.",
+    "context": "Backup and Recovery Policy (IT-POL-015): Database backup schedules are defined by tier. Tier 1 (Mission Critical): Incremental backups every 1 hour; full backup daily at 02:00 UTC. Tier 2 (Business Critical): Incremental backups every 4 hours; full backup daily. Tier 3 (Standard): Full backup nightly. All backups are encrypted at rest and stored in geographically separate locations. Recovery Time Objective (RTO) for Tier 1 is 2 hours."
+  },
+  {
+    "question": "What is the maximum duration for a single vendor contract without board approval?",
+    "ground_truth": "Vendor contracts with a duration of up to 3 years can be approved at the department head level without board approval.",
+    "context": "Procurement and Vendor Management Policy (FIN-POL-016): Contract approval authority is tiered by value and duration. Contracts up to $50,000 and 1 year: approved by department manager. Contracts up to $250,000 and 3 years: approved by department head. Contracts exceeding $250,000 or 3 years in duration: require board approval. All contracts must be reviewed by the Legal team before execution."
+  },
+  {
+    "question": "What is the required response time for acknowledging a customer support ticket?",
+    "ground_truth": "Customer support tickets must be acknowledged within 2 business hours of submission.",
+    "context": "Customer Support SLA (CS-SLA-017): All customer support tickets submitted via the support portal or email must receive an acknowledgement response within 2 business hours. First response with a resolution plan must be provided within 8 business hours for standard tickets. Critical tickets (system outages affecting the customer) must be acknowledged within 30 minutes."
+  },
+  {
+    "question": "What is the company's policy on conducting background checks for new hires?",
+    "ground_truth": "All new hires must undergo a background check including criminal record, employment history, and education verification before their start date.",
+    "context": "Pre-Employment Screening Policy (HR-POL-018): The company conducts pre-employment background checks on all prospective employees as a condition of employment. Checks include: criminal record check (5-year lookback), employment history verification (last 3 employers), education credential verification, and credit check for roles with financial responsibilities. Checks must be completed and cleared before the employee's start date."
+  },
+  {
+    "question": "How long must audit logs be retained under the compliance framework?",
+    "ground_truth": "Audit logs must be retained for a minimum of 2 years.",
+    "context": "Audit Logging and Monitoring Policy (COMP-POL-019): All system access and administrative action audit logs must be retained for a minimum of two (2) years. Logs must be stored in a tamper-evident, write-once repository. Access to audit logs is restricted to the Information Security and Compliance teams. Log integrity must be verified monthly using cryptographic checksums."
+  },
+  {
+    "question": "What is the process for employees to raise a formal grievance?",
+    "ground_truth": "Employees must submit a written grievance to HR within 30 days of the incident. HR will acknowledge within 5 business days and schedule a formal hearing.",
+    "context": "Grievance Procedure (HR-POL-020): Employees who wish to raise a formal grievance must submit a written complaint to the HR department within 30 calendar days of the incident giving rise to the grievance. HR will acknowledge receipt within 5 business days and schedule a formal grievance hearing within 15 business days. Employees have the right to be accompanied by a colleague or trade union representative at the hearing."
+  },
+  {
+    "question": "What encryption standard is required for data transmitted over public networks?",
+    "ground_truth": "All data transmitted over public networks must be encrypted using TLS 1.2 or higher.",
+    "context": "Data Encryption Policy (SEC-POL-021): All data classified as Confidential or Restricted that is transmitted over public or untrusted networks must be encrypted using Transport Layer Security (TLS) version 1.2 or higher. TLS 1.0 and 1.1 are deprecated and must not be used. Data at rest classified as Confidential or above must be encrypted using AES-256. Encryption keys must be managed through the approved Key Management System."
+  },
+  {
+    "question": "What is the maximum allowed downtime for planned maintenance windows on production systems?",
+    "ground_truth": "Planned maintenance windows on production systems must not exceed 4 hours and must be scheduled outside business hours.",
+    "context": "Change Management Policy (IT-POL-022): Planned maintenance activities on production systems must be scheduled during approved maintenance windows: weekdays 22:00–06:00 local time, or weekends 00:00–08:00. The maximum duration of a single maintenance window is 4 hours. Maintenance activities exceeding this limit require a Change Advisory Board (CAB) exception approval. All planned maintenance must be communicated to affected stakeholders at least 48 hours in advance."
+  },
+  {
+    "question": "What is the company's policy on dual employment or working for a competitor?",
+    "ground_truth": "Employees must disclose any secondary employment and are prohibited from working for direct competitors without written approval from HR and their department head.",
+    "context": "Conflict of Interest Policy (HR-POL-023): Employees must disclose any secondary employment, directorship, or significant financial interest in another business to HR within 14 days of commencement. Employees are prohibited from working for, or providing services to, a direct competitor of the company without prior written approval from both HR and their department head. Undisclosed conflicts of interest may result in disciplinary action up to and including termination."
+  },
+  {
+    "question": "What is the Recovery Point Objective (RPO) for the customer database?",
+    "ground_truth": "The Recovery Point Objective for the customer database is 1 hour.",
+    "context": "Business Continuity and Disaster Recovery Policy (IT-POL-024): Recovery objectives for critical systems are defined as follows. Customer Database: RPO 1 hour, RTO 2 hours. Order Management System: RPO 4 hours, RTO 4 hours. Internal HR System: RPO 24 hours, RTO 8 hours. These objectives are tested through annual disaster recovery exercises. Results are reported to the IT Steering Committee."
+  },
+  {
+    "question": "What is the policy for classifying and handling Personally Identifiable Information (PII)?",
+    "ground_truth": "PII must be classified as Confidential, stored in approved systems, accessed on a need-to-know basis, and must not be transmitted via unencrypted email.",
+    "context": "PII Handling Policy (COMP-POL-025): Personally Identifiable Information (PII) is classified at the Confidential level by default. PII must be stored only in approved, access-controlled systems. Access to PII is granted on a strict need-to-know basis. PII must not be transmitted via unencrypted email or stored on personal devices. Any processing of PII must have a documented lawful basis under applicable data protection regulations. PII must be anonymised or deleted when no longer required for its original purpose."
+  },
+  {
+    "question": "What is the company's whistleblowing policy and how can employees report concerns anonymously?",
+    "ground_truth": "Employees can report concerns anonymously via the dedicated whistleblowing hotline or online portal. Reports are investigated by the Compliance team and reporters are protected from retaliation.",
+    "context": "Whistleblowing Policy (COMP-POL-026): The company is committed to maintaining an open culture where concerns about misconduct, fraud, or policy violations can be raised without fear of retaliation. Employees may report concerns anonymously via the 24/7 whistleblowing hotline (+1-800-555-0199) or the secure online portal at ethics.company.com. All reports are investigated by the Compliance team. Employees who raise concerns in good faith are protected from retaliation under this policy and applicable law."
+  },
+  {
+    "question": "What is the maximum value of a purchase order that a team lead can approve independently?",
+    "ground_truth": "Team leads can independently approve purchase orders up to $10,000.",
+    "context": "Purchasing Authority Matrix (FIN-POL-027): Purchase order approval authority is as follows. Individual contributors: no independent approval authority. Team leads: up to $10,000. Managers: up to $50,000. Department heads: up to $150,000. VP and above: up to $500,000. CEO: unlimited. All purchases must comply with the approved vendor list and procurement procedures."
+  },
+  {
+    "question": "How frequently must vulnerability scans be conducted on internet-facing systems?",
+    "ground_truth": "Internet-facing systems must undergo vulnerability scans at least weekly.",
+    "context": "Vulnerability Management Policy (SEC-POL-028): Vulnerability scanning requirements by system classification: Internet-facing systems: weekly automated scans, quarterly manual penetration testing. Internal network systems: monthly automated scans. Development and test environments: scans before each production deployment. Critical vulnerabilities (CVSS score ≥ 9.0) must be remediated within 72 hours. High vulnerabilities (CVSS 7.0–8.9) must be remediated within 14 days."
+  },
+  {
+    "question": "What is the policy for disposing of hardware containing sensitive data?",
+    "ground_truth": "Hardware containing sensitive data must be securely wiped using DoD 5220.22-M standard or physically destroyed before disposal. A certificate of destruction must be obtained.",
+    "context": "Hardware Disposal Policy (IT-POL-029): All hardware containing company data must be securely decommissioned before disposal or reuse. Storage media must be wiped using the DoD 5220.22-M overwriting standard or physically destroyed via an approved shredding service. A Certificate of Data Destruction must be obtained from the disposal vendor and retained for 3 years. Disposal of hardware must be coordinated through the IT Asset Management team."
+  },
+  {
+    "question": "What is the company's policy on social media use during work hours?",
+    "ground_truth": "Personal social media use is permitted during designated break times only. Employees must not post confidential company information on social media at any time.",
+    "context": "Social Media Policy (HR-POL-030): Employees may access personal social media accounts during designated break periods only (morning break, lunch, afternoon break). Social media use must not interfere with work duties or productivity. Employees are strictly prohibited from posting, sharing, or discussing confidential company information, client data, or internal business matters on any social media platform at any time, whether during or outside work hours. Violations may result in disciplinary action."
+  },
+  {
+    "question": "What is the required frequency for reviewing and updating the Business Continuity Plan?",
+    "ground_truth": "The Business Continuity Plan must be reviewed and updated at least annually and after any significant organisational change.",
+    "context": "Business Continuity Management Policy (IT-POL-031): The Business Continuity Plan (BCP) must be formally reviewed and updated at least once per calendar year. Additionally, the BCP must be reviewed and updated following any significant organisational change, major IT infrastructure change, or following activation of the plan. Review outcomes must be documented and approved by the Business Continuity Steering Committee. The BCP must be tested through a tabletop exercise annually."
+  },
+  {
+    "question": "What is the maximum loan amount available through the employee financial assistance programme?",
+    "ground_truth": "Employees can apply for an interest-free loan of up to $5,000 through the financial assistance programme.",
+    "context": "Employee Financial Assistance Programme (HR-POL-032): The company offers an interest-free emergency loan facility to permanent employees who have completed at least 12 months of continuous service. The maximum loan amount is $5,000. Loans are repaid through salary deductions over a maximum period of 24 months. Applications must be submitted to HR and approved by the HR Director. The programme is limited to one active loan per employee at any time."
+  },
+  {
+    "question": "What is the policy for multi-factor authentication on corporate systems?",
+    "ground_truth": "Multi-factor authentication is mandatory for all remote access to corporate systems and for all privileged accounts.",
+    "context": "Multi-Factor Authentication Policy (SEC-POL-033): Multi-factor authentication (MFA) is mandatory for: all remote access to corporate systems via VPN or remote desktop, all cloud-based applications, all privileged and administrative accounts, and access to systems classified as Confidential or Restricted. MFA must use an approved second factor: hardware token, authenticator app (TOTP), or biometric. SMS-based OTP is not approved for privileged access. MFA enrolment must be completed within 5 business days of account creation."
+  },
+  {
+    "question": "What is the company's policy on intellectual property created by employees?",
+    "ground_truth": "All intellectual property created by employees in the course of their employment belongs to the company.",
+    "context": "Intellectual Property Policy (LEGAL-POL-034): All inventions, software, designs, processes, and other intellectual property created by employees in the course of their employment, or using company resources, are the exclusive property of the company. Employees must promptly disclose any such creations to their manager and the Legal team. This policy applies regardless of whether the work was performed during or outside normal working hours if company resources were used."
+  },
+  {
+    "question": "What is the process for requesting a software licence for a new tool?",
+    "ground_truth": "Software licence requests must be submitted via the IT Service Portal with a business justification and approved by the line manager and IT Security before procurement.",
+    "context": "Software Licence Management Policy (IT-POL-035): Employees requiring a new software licence must submit a Software Licence Request via the IT Service Portal. The request must include a business justification, the number of licences required, and the estimated annual cost. Requests must be approved by the employee's line manager and reviewed by the IT Security team for security compliance before procurement. The IT Asset Management team will procure and deploy approved licences."
+  },
+  {
+    "question": "What is the company's policy on conducting performance reviews?",
+    "ground_truth": "Formal performance reviews are conducted twice per year: a mid-year check-in in June and an annual review in December.",
+    "context": "Performance Management Policy (HR-POL-036): The company operates a bi-annual performance review cycle. A mid-year check-in is conducted in June, focusing on progress against objectives and development needs. The annual performance review is conducted in December and includes a formal rating, salary review recommendation, and objective-setting for the following year. All reviews must be documented in the HR system within 10 business days of the review meeting."
+  },
+  {
+    "question": "What is the maximum number of failed login attempts before an account is locked?",
+    "ground_truth": "An account is locked after 5 consecutive failed login attempts.",
+    "context": "Account Security Policy (SEC-POL-037): To protect against brute-force attacks, user accounts will be automatically locked after five (5) consecutive failed login attempts within a 15-minute window. Locked accounts must be unlocked by the IT Service Desk after identity verification. Privileged accounts are locked after three (3) failed attempts. Account lockout events are logged and reviewed by the Security Operations team."
+  },
+  {
+    "question": "What is the policy for employees travelling to high-risk countries on business?",
+    "ground_truth": "Employees travelling to high-risk countries must obtain approval from their department head and the Security team, complete a travel security briefing, and register their travel with HR.",
+    "context": "Business Travel Security Policy (HR-POL-038): Travel to countries classified as high-risk by the company's security intelligence provider requires: written approval from the department head and the Corporate Security team, completion of a mandatory travel security briefing at least 5 business days before departure, and registration of travel details with HR. Employees must check in with their manager every 48 hours while in a high-risk country. Emergency evacuation support is available through the company's travel assistance provider."
+  },
+  {
+    "question": "What is the required format for documenting a change request in the change management process?",
+    "ground_truth": "Change requests must be documented using the standard Change Request Form, including impact assessment, rollback plan, and test results.",
+    "context": "Change Management Policy (IT-POL-039): All changes to production systems must be documented using the standard Change Request Form (CRF) available in the IT Service Portal. The CRF must include: description of the change and business justification, impact assessment (systems, users, and data affected), rollback plan with estimated rollback time, test results from the staging environment, and implementation schedule. Emergency changes may be implemented with verbal approval but must be documented within 24 hours."
+  },
+  {
+    "question": "What is the company's policy on using open-source software in commercial products?",
+    "ground_truth": "Open-source software may be used in commercial products only after a licence review by the Legal team to ensure compatibility with commercial distribution.",
+    "context": "Open Source Software Policy (LEGAL-POL-040): The use of open-source software (OSS) in company products or services is permitted subject to the following conditions: the OSS licence must be reviewed and approved by the Legal team before use, copyleft licences (e.g., GPL) must not be used in commercial products without explicit Legal approval, all OSS components must be tracked in the Software Bill of Materials (SBOM), and OSS components must be kept up to date with security patches."
+  },
+  {
+    "question": "What is the policy for handling customer complaints escalated to the executive level?",
+    "ground_truth": "Executive-level customer complaints must be acknowledged within 24 hours and assigned to a senior account manager. A resolution plan must be provided within 3 business days.",
+    "context": "Customer Complaint Escalation Policy (CS-POL-041): Complaints escalated to the executive level (CEO, COO, or equivalent) must be acknowledged by the Customer Success team within 24 hours of receipt. A senior account manager must be assigned as the primary point of contact. A formal resolution plan must be communicated to the customer within 3 business days. Progress updates must be provided every 2 business days until resolution. All executive-level complaints are reviewed in the monthly Customer Experience Committee."
+  },
+  {
+    "question": "What is the minimum notice period for scheduled system downtime affecting customers?",
+    "ground_truth": "Customers must be notified at least 72 hours in advance of scheduled system downtime.",
+    "context": "Customer Communication Policy (CS-POL-042): Scheduled maintenance that will result in service unavailability for customers must be communicated at least 72 hours in advance via email notification and status page update. Notifications must include the expected start time, estimated duration, and a description of the impact. For maintenance windows exceeding 4 hours, a dedicated customer communication must be sent by a member of the Customer Success team."
+  },
+  {
+    "question": "What is the company's policy on employee share ownership plans?",
+    "ground_truth": "Permanent employees who have completed 2 years of service are eligible to participate in the Employee Share Ownership Plan (ESOP), with a maximum annual allocation of $10,000 in shares.",
+    "context": "Employee Share Ownership Plan Policy (HR-POL-043): The company operates an Employee Share Ownership Plan (ESOP) for eligible employees. Eligibility criteria: permanent employment status and completion of at least 2 years of continuous service. Eligible employees may allocate up to $10,000 per year to purchase company shares at a 15% discount to the market price. Shares are subject to a 2-year vesting period. Participation is voluntary and subject to applicable securities regulations."
+  },
+  {
+    "question": "What is the policy for conducting third-party vendor security assessments?",
+    "ground_truth": "Third-party vendors with access to company data or systems must undergo a security assessment before onboarding and annually thereafter.",
+    "context": "Third-Party Risk Management Policy (SEC-POL-044): All third-party vendors who will have access to company data classified as Confidential or above, or who will connect to company systems, must complete a security assessment before contract execution. The assessment includes a security questionnaire, review of the vendor's security certifications (e.g., ISO 27001, SOC 2), and a right-to-audit clause in the contract. Assessments must be repeated annually for vendors with ongoing access. High-risk vendors require an on-site assessment."
+  },
+  {
+    "question": "What is the company's policy on parental leave for primary caregivers?",
+    "ground_truth": "Primary caregivers are entitled to 16 weeks of fully paid parental leave.",
+    "context": "Parental Leave Policy (HR-POL-045): The company provides the following parental leave entitlements. Primary caregiver (birth parent or primary adopter): 16 weeks at full pay, followed by up to 36 weeks of statutory parental leave. Secondary caregiver: 4 weeks at full pay. Shared parental leave arrangements are available in accordance with applicable law. Employees must notify HR at least 8 weeks before the expected leave start date. Parental leave does not affect accrual of annual leave or pension contributions."
+  },
+  {
+    "question": "What is the process for decommissioning a legacy IT system?",
+    "ground_truth": "Legacy system decommissioning requires a formal decommission plan approved by the IT Steering Committee, data migration or archival, and a post-decommission audit.",
+    "context": "IT Asset Lifecycle Policy (IT-POL-046): Decommissioning of legacy IT systems must follow the approved decommission process: submission of a Decommission Request to the IT Steering Committee, completion of a data migration or archival plan approved by the data owner, communication to all affected users at least 30 days before decommission, execution of the decommission plan with sign-off from IT Operations, and a post-decommission audit to confirm data removal and system shutdown. All decommission activities must be documented in the IT Asset Register."
+  },
+  {
+    "question": "What is the company's policy on using AI tools for processing customer data?",
+    "ground_truth": "AI tools used to process customer data must be approved by the Data Protection Officer and must not transmit customer data to external AI providers without explicit customer consent.",
+    "context": "AI and Automated Decision-Making Policy (COMP-POL-047): The use of AI tools and large language models for processing customer data is subject to the following requirements: the tool must be reviewed and approved by the Data Protection Officer (DPO) before use, customer data must not be transmitted to external AI providers or used for model training without explicit customer consent, AI-generated outputs that affect customers must be reviewed by a human before action is taken, and a record of AI tool usage must be maintained for audit purposes."
+  },
+  {
+    "question": "What is the maximum duration for which a temporary contractor can be engaged without a formal review?",
+    "ground_truth": "Temporary contractors can be engaged for up to 6 months without a formal review. Engagements beyond 6 months require HR and legal review.",
+    "context": "Contingent Workforce Policy (HR-POL-048): Temporary contractors and agency workers may be engaged for an initial period of up to 6 months without a formal review. Engagements intended to extend beyond 6 months must be reviewed by HR and the Legal team to assess employment status risk and compliance with applicable labour laws. The maximum continuous engagement period for a temporary contractor in the same role is 24 months, after which a break of at least 3 months is required before re-engagement."
+  },
+  {
+    "question": "What is the company's policy on environmental sustainability and carbon reporting?",
+    "ground_truth": "The company is committed to achieving net-zero carbon emissions by 2040 and publishes an annual sustainability report disclosing Scope 1, 2, and 3 emissions.",
+    "context": "Environmental Sustainability Policy (ESG-POL-049): The company is committed to achieving net-zero carbon emissions across its operations by 2040. Annual targets include a 10% year-on-year reduction in Scope 1 and 2 emissions. The company publishes an annual sustainability report disclosing Scope 1, 2, and 3 greenhouse gas emissions in accordance with the GHG Protocol. All new office fit-outs must achieve a minimum BREEAM 'Excellent' rating. Business travel emissions must be offset through an approved carbon offset programme."
+  },
+  {
+    "question": "What is the policy for managing conflicts of interest on the board of directors?",
+    "ground_truth": "Board members must declare any conflict of interest before the relevant agenda item and must recuse themselves from the vote on that matter.",
+    "context": "Board Governance Policy (LEGAL-POL-050): Board members are required to declare any actual or potential conflict of interest at the start of each board meeting or as soon as the conflict becomes apparent. Upon declaration, the conflicted director must recuse themselves from any discussion and vote on the relevant agenda item. Declarations must be recorded in the board minutes. The company maintains a register of directors' interests, which is reviewed and updated at each board meeting. Failure to declare a conflict of interest is a serious breach of fiduciary duty."
+  }
+]

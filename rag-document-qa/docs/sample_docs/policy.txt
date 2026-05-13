@@ -1,0 +1,4 @@
+Standard Operating Procedure: P1 incidents must be resolved within 4 hours.
+Remote work policy: Employees are allowed up to 3 days of remote work per week.
+SLA for P2 incidents: 24 hours.
+Company Holiday: December 25th is a mandatory holiday.
